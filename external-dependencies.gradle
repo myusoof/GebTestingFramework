@@ -1,0 +1,5 @@
+ext{
+    groovy = "org.codehaus.groovy:groovy-all:2.1.1"
+    gebSpoke = 'org.gebish:geb-spock:0.9.3'
+    geb = 'org.gebish:geb-core:0.9.3'
+}
