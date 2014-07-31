@@ -1,5 +1,11 @@
 ext{
     groovy = "org.codehaus.groovy:groovy-all:2.1.1"
     gebSpoke = 'org.gebish:geb-spock:0.9.3'
+
+    seleniumVersion = "2.42.2"
     geb = 'org.gebish:geb-core:0.9.3'
+    seleniumFirefox = "org.seleniumhq.selenium:selenium-firefox-driver:${seleniumVersion}"
+    seleniumSupport = "org.seleniumhq.selenium:selenium-support:${seleniumVersion}"
+    seleniumChrome = "org.seleniumhq.selenium:selenium-chrome-driver:2.31.0"
+    seleniumhtmlunit = "org.seleniumhq.selenium:selenium-htmlunit-driver:${seleniumVersion}"
 }

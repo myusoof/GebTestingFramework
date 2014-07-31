@@ -1,6 +1,6 @@
-apply plugin: 'groovy'
-apply plugin: 'java'
-apply plugin: 'idea'
+apply plugin : 'groovy'
+apply plugin : 'java'
+apply plugin : 'idea'
 
 apply from : 'external-dependencies.gradle'
 
@@ -11,5 +11,7 @@ allprojects{
 }
 
 dependencies{
-    compile groovy, gebSpoke, geb
+    testCompile 'org.gebish:geb-spock:0.9.3'
+    testCompile 'org.gebish:geb-core:0.9.3'
+    compile  groovy, geb, gebSpoke, seleniumFirefox, seleniumhtmlunit, seleniumChrome, seleniumSupport
 }
